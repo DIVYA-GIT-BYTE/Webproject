@@ -1,0 +1,70 @@
+
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    background-color: black;    
+}
+.banner-section{
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    
+}
+.categories-section{
+    width: 100%;
+    height: 200px;
+   
+}
+.new-arrivals-section{
+    width: 100%;
+    height: 120px;
+}
+.offers-section{
+    width: 100%;
+    height: 120px;
+  
+}
+.categories-section ul {
+    display: flex;
+    justify-content: center;  /* Center images horizontally */
+    align-items: center;      /* Center images vertically */
+    padding: 0;
+    margin: 0;
+    height: 100%;             /* Fill the parent container */
+    list-style: none;
+    gap: 20px;                /* Space between images */
+}
+
+.categories-section ul li {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;   /* Optional: image box border */
+    box-sizing: border-box;
+}
+
+.categories-section ul li img {
+    width: 95px;
+    height: 95px;
+    object-fit: cover;
+    border-radius: 5px;       /* Optional: rounded corners */
+}
+.new-arrivals-section ul li{
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+.arrival-section ul li{
+    display: inline-flex;
+    width:220px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 20px;;
+}
+.sub-section ul li img{
+  width: 100%;
+  border: 1px solid red;
+}
